@@ -2,12 +2,14 @@
 layout: homepage
 title: Install Amahi on Ubuntu 12.04.2 LTS
 ---
+
+# Important Note
+
+<span class="label label-important">WARNING</span>
+**This Amahi release is unsupported at this time! Please use a supported release!
+The latest release is [Amahi 8](amahi-8.html).**
+
 # 1. Install Ubuntu
-<div class="alert alert-error">
-<strong>WARNING: This Amahi release is unsupported at this time! Please use a supported release!
-The latest release is Amahi 7 Express.
-</strong>
-</div>
 
 * Make sure you have properly configured a profile in your [Amahi control panel](https://www.amahi.org/users)
 * Do **not** use an existing Ubuntu system: Amahi **cannot be uninstalled**.
@@ -22,9 +24,7 @@ The latest release is Amahi 7 Express.
 
 ### Server install (headless)
 <span class="label label-important">WARNING</span>
-<div class="alert alert-error">
-SERVER INSTALL DOES NOT CURRENTLY WORK. <a href="http://bugs.amahi.org/issues/1015">USE THIS WORK-AROUND</a> IF YOU MUST.
-</div>
+**SERVER INSTALL DOES NOT CURRENTLY WORK. [USE THIS WORK-AROUND](http://bugs.amahi.org/issues/1015) IF YOU MUST.**
 
 * Install Ubuntu Server until you reboot and are at the command line.
 * See this detailed guide for <a href="http://ubuntuserverguide.com/2012/05/how-to-install-ubuntu-server-12-04-lts-precise-pangolin-included-screenshot.html" target="_blank">installing Ubuntu Server</a>.
